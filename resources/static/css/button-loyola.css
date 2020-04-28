@@ -1,0 +1,73 @@
+#footer-cta, #footer-cta a { padding: 20px 0; margin-top: 40px;margin-bottom: -40px;}
+#footer-cta .gift a{color:#fff;}
+
+#global-form a.btn {
+	font-family: 'Vitesse 7r', 'Vitesse A', 'Vitesse B', 'museo-sans', Arial, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	letter-spacing: 1px;
+	color: #272727;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+.btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover, .cta {
+    font-size: 14px;
+}
+.cta, a.btn.cta {
+	margin: 0 0 0 10px;
+	font-family: 'Vitesse 7r', 'Vitesse A', 'Vitesse B', 'museo-sans', Arial, sans-serif;
+	color: #FFF;
+	text-align: left;
+	letter-spacing: .5px;
+	text-transform: uppercase;color: #EEE;
+	text-shadow: none;
+	background-color: #680013;
+	background-image: none;
+	border-bottom-color: #272727;
+	-moz-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+  	outline: none;
+}
+.cta:hover, .btn-group .cta:hover {
+	color: #FFF;
+	background-color: #5C131F;
+}
+#footer-cta .span2:first-child { margin-left: 20px; min-width: 150px; }
+
+#footer-cta .span2 { min-width: 150px; }
+
+#footer-cta .btn-group .cta:first-child { margin-left: 10px; width: 150px; }
+
+#footer-cta .span2 .btn-group { width: 150px; }
+
+#footer-cta .span2 .btn-group.apply { min-width: 150px; }
+
+#footer-cta .span2 .btn-group.info { min-width: 150px; }
+
+#footer-cta .visit { margin: 0 0 0 10px; width: 170px; }
+
+#footer-cta span.visit { margin: 0; }
+
+#footer-cta .gift { margin-left: 5px; width: 170px; }
+
+#footer-cta .cta .caret {
+	border-top-color: #ffffff;
+  	border-bottom-color: #ffffff;
+}
+.btn-group.open .btn.dropdown-toggle, .btn-group.close .btn.dropdown-toggle {
+	box-shadow: none;
+    background-color: hsl(349, 41%, 23%);
+}
+#footer-cta .btn:hover,
+#footer-cta .btn:focus,
+#footer-cta .btn:active,
+#footer-cta .btn.active,
+#footer-cta .btn.disabled,
+#footer-cta .btn[disabled] {
+  background-color: #680013;
+  *background-color: #680013;
+}
+
+.recruitmentlinks a.btn.cta { margin: 0 0 10px 0; float: left; width: 90%; }
+
+.recruitmentlinks a.btn.cta:last-of-type {margin: 0;}

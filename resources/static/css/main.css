@@ -1,0 +1,70 @@
+html * {
+    
+}
+
+#header {
+	
+}
+
+#footer {
+	clear:both;
+}
+
+#content {
+	width: 700px;	
+}
+
+h1 {
+	font: 20px minion web, times new roman;
+	color: #A30046;
+	font-weight: bold;	
+}
+h2 {
+	font: 18px verdana, arial, helvetica, sans-serif;
+	color: #A30046;
+	font-weight: bold;	
+}
+h3 {
+	font: 14px verdana, arial, helvetica, sans-serif;
+	color: #A30046;
+	font-weight: bold;
+	text-decoration:underline;
+}
+h4 {
+	color: #A30046;
+}
+
+/* MESSAGES AND ERRORS */
+
+.message {
+    background: #f3f8fc url(../images/skin/information.png) 8px 50% no-repeat;
+    border: 1px solid #b2d1ff;
+    color: #006dba;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 30px
+}
+
+div.errors {
+    background: #fff3f3;
+    border: 1px solid red;
+    color: #cc0000;
+    margin: 10px 0 5px 0;
+    padding: 5px 0 5px 0;
+}
+div.errors ul {
+    list-style: none;
+    padding: 0;
+}
+div.errors li {
+	background: url(../images/skin/exclamation.png) 8px 0% no-repeat;
+    line-height: 16px;
+    padding-left: 30px;
+}
+
+#activeAlert {
+	border: 1px solid #A30046;
+	background: #F9F1F4;
+	color: #A30046;
+	margin: 0 3px;
+    padding: 2px 6px;
+}

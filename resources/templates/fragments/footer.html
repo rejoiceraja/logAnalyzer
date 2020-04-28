@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:th="http://www.thymeleaf.org" 
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+<div th:fragment="footerFragment">
+<!-- Adding this script as without this script the dropdown menu in the top menu bar will not work. The drop down menu for reports
+will not drop down. -->
+<script>
+
+$(document).ready(function () {
+	
+	$("nav .dropdown").on("click", function(index, el){
+	        $(el).find(".dropdown-toggle").dropdown('toggle');
+    });
+	
+	//$("nav .dropdown").each(function(index, el) {
+	
+	//    $(el).on("click", function(){
+	       // $(el).find(".dropdown-toggle").dropdown('toggle');
+	//    });
+	//});
+});
+
+</script>
+
+
+</div>
+</body>
+</html>
